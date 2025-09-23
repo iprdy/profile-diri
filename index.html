@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Diri</title>
+    <link rel="icon" type="image/png" href="pic.jpg">
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0px 300px;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            text-align: center;
+            background: #0077b6;
+            color: white;
+            padding: 10px;
+        }
+        nav {
+            text-align: center;
+            margin: 15px 0;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #0077b6;
+            font-weight: bold;
+        }
+        img {
+            border-radius: 50%;
+            display: block;
+            margin: 10px auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        table, th, td {
+            border: 1px solid #0077b6;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+        form {
+            background: #fff;
+            padding: 15px;
+            border: 1px solid #0077b6;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        form input, form textarea {
+            width: 100%;
+            margin: 5px 0;
+            padding: 8px;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+        }
+        form button {
+            background: #0077b6;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .sosmed {
+            text-align: center;
+            margin: 15px 0;
+        }
+        .sosmed a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #0077b6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Profil Mahasiswa</h1>
+    </header>
+
+    <!-- Navigasi -->
+    <nav>
+        <a href="#pendidikan">Riwayat Pendidikan</a>
+        <a href="#hobi">Hobi</a>
+        <a href="#organisasi">Pengalaman Organisasi</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <section>
+        <h2>Biodata</h2>
+        <img src="pic.jpg" alt="Foto Profil" width="120">
+        <p><strong>Nama:</strong> I Putu Raditya Dharma Yoga</p>
+        <p><strong>NIM:</strong> 2405551026</p>
+        <p><strong>Program Studi:</strong> Teknologi Informasi</p>
+        <p><strong>Alamat:</strong> Jimbaran, Bali</p>
+        <p><strong>Email:</strong> iputuradityadharmayoga@gmail.com</p>
+    </section>
+
+    <section id="pendidikan">
+        <h2>Riwayat Pendidikan</h2>
+        <ul>
+            <li>SD Negeri Jakasetia 4 Kota Bekasi</li>
+            <li>SMP Negeri 12 Kota Bekasi</li>
+            <li>SMA Negeri 8 Kota Bekasi</li>
+        </ul>
+    </section>
+
+    <section id="hobi">
+        <h2>Hobi</h2>
+        <ol>
+            <li>Bermain Bulutangkis</li>
+            <li>Bermain Game</li>
+            <li>Membaca Komik</li>
+        </ol>
+    </section>
+
+    <section id="organisasi">
+        <h2>Pengalaman Organisasi</h2>
+        <table>
+            <tr>
+                <th>Organisasi</th>
+                <th>Jabatan</th>
+                <th>Tahun</th>
+            </tr>
+            <tr>
+                <td>Ekstrakurikuler Bulutangkis</td>
+                <td>Ketua</td>
+                <td>2022 - 2023</td>
+            </tr>
+            <tr>
+                <td>OSIS SMA Negeri 8 Bekasi</td>
+                <td>Anggota</td>
+                <td>2022 - 2023</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="kontak">
+        <h2>Formulir Kontak</h2>
+        <form>
+            <label>Nama:</label>
+            <input type="text" name="nama" required>
+            <label>Email:</label>
+            <input type="email" name="email" required>
+            <label>Pesan:</label>
+            <textarea name="pesan" rows="4" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <!-- Sosial Media -->
+    <div class="sosmed">
+        <h2>Media Sosial</h2>
+        <a href="https://facebook.com/iprdy" target="_blank">Facebook</a> |
+        <a href="https://instagram.com/iprdy" target="_blank">Instagram</a> |
+        <a href="https://www.linkedin.com/in/iprdy/" target="_blank">LinkedIn</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 I Putu Raditya Dharma Yoga</p>
+    </footer>
+</body>
+</html>
