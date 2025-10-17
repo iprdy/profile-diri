@@ -1,69 +1,107 @@
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0px 300px;
-            background-color: #f4f4f4;
-        }
-        header, footer {
-            text-align: center;
-            background: #0077b6;
-            color: white;
-            padding: 10px;
-        }
-        nav {
-            text-align: center;
-            margin: 15px 0;
-        }
-        nav a {
-            margin: 0 10px;
-            text-decoration: none;
-            color: #0077b6;
-            font-weight: bold;
-        }
-        img {
-            border-radius: 50%;
-            display: block;
-            margin: 10px auto;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 15px 0;
-        }
-        table, th, td {
-            border: 1px solid #0077b6;
-        }
-        th, td {
-            padding: 8px;
-            text-align: center;
-        }
-        form {
-            background: #fff;
-            padding: 15px;
-            border: 1px solid #0077b6;
-            border-radius: 8px;
-            margin-top: 20px;
-        }
-        form input, form textarea {
-            width: 100%;
-            margin: 5px 0;
-            padding: 8px;
-            border: 1px solid #aaa;
-            border-radius: 5px;
-        }
-        form button {
-            background: #0077b6;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .sosmed {
-            text-align: center;
-            margin: 15px 0;
-        }
-        .sosmed a {
-            margin: 0 10px;
-            text-decoration: none;
-            color: #0077b6;
-        }
+    body {
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0px 300px;
+    background-color: #504B38;
+}
+.container {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "sidebar content"
+        "footer footer";
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 15px;
+    min-height: 100vh;
+    margin: 0;
+}
+header {
+    grid-area: header;
+}
+.sidebar {
+    grid-area: sidebar;
+    background-color: #FFF2E0;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.sidebar a {
+    display: block;
+    width: 100%;
+    padding: 5px 5px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background 0.3s;
+}
+.sidebar a:hover {
+    background-color: #575343;
+    color: white;
+}
+.content {
+    grid-area: content;
+    background-color: #FFF2E0;
+    padding: 20px;
+    border-radius: 10px;
+}
+footer {
+    grid-area: footer;
+}
+header, footer {
+    text-align: center;
+    background: #FFF2E0;
+    color: black;
+    padding: 10px;
+}
+img {
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+table, th, td {
+    border: 1px solid #0077b6;
+}
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+form {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #0077b6;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+form input, form textarea {
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+form button {
+    background: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sosmed {
+    text-align: center;
+    margin: 15px 0;
+}
+.sosmed a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0077b6;
+}
