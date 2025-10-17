@@ -9,105 +9,109 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Profil Mahasiswa</h1>
-    </header>
-
-    <nav>
-        <a href="#pendidikan">Riwayat Pendidikan</a>
-        <a href="#hobi">Hobi</a>
-        <a href="#organisasi">Pengalaman Organisasi</a>
-        <a href="#kontak">Kontak</a>
-    </nav>
-
-    <section>
-        <h2>Biodata</h2>
-        <img src="pic.jpg" alt="Foto Profil" width="120">
-        <p><strong>Nama:</strong> I Putu Raditya Dharma Yoga</p>
-        <p><strong>NIM:</strong> 2405551026</p>
-        <p><strong>Program Studi:</strong> Teknologi Informasi</p>
-        <p><strong>Alamat:</strong> Jimbaran, Bali</p>
-        <p><strong>Email:</strong> iputuradityadharmayoga@gmail.com</p>
-    </section>
-
-    <section id="aboutme">
-        <h2>Tentang Saya</h2>
-        <p>
-            Saya adalah mahasiswa Teknologi Informasi dengan minat besar dalam pengembangan perangkat lunak, khususnya di bidang game development. 
-            Saya tertarik mengeksplorasi bagaimana teknologi dapat digunakan untuk menciptakan pengalaman interaktif yang imersif dan menyenangkan.
-            Saat ini, saya sedang fokus mempelajari berbagai hal yang berkaitan dengan pengembangan game, termasuk:
-        </p>
-        <ul>
-            <li>Unity Engine sebagai platform utama untuk membuat game lintas platform.</li>
-            <li>C# untuk pengembangan logika dan sistem gameplay.</li>
-            <li>Lua sebagai bahasa scripting yang banyak digunakan dalam modding dan integrasi sistem game.</li>
-        </ul>
-        <p>
-            Saya senang belajar teknologi baru dan terus mengasah keterampilan saya di dunia game programming, desain sistem interaktif, dan pengembangan aset digital. 
-            Tujuan saya adalah menjadi seorang game developer yang mampu menggabungkan kreativitas, logika, dan teknologi untuk menciptakan pengalaman bermain yang bermakna dan inovatif.
-        </p>
-    </section>
-    <section id="pendidikan">
-        <h2>Riwayat Pendidikan</h2>
-        <ul>
-            <li>SD Negeri Jakasetia 4 Kota Bekasi</li>
-            <li>SMP Negeri 12 Kota Bekasi</li>
-            <li>SMA Negeri 8 Kota Bekasi</li>
-        </ul>
-    </section>
-
-    <section id="hobi">
-        <h2>Hobi</h2>
-        <ol>
-            <li>Bermain Bulutangkis</li>
-            <li>Bermain Game</li>
-            <li>Membaca Komik</li>
-        </ol>
-    </section>
-
-    <section id="organisasi">
-        <h2>Pengalaman Organisasi</h2>
-        <table>
-            <tr>
-                <th>Organisasi</th>
-                <th>Jabatan</th>
-                <th>Tahun</th>
-            </tr>
-            <tr>
-                <td>Ekstrakurikuler Bulutangkis</td>
-                <td>Ketua</td>
-                <td>2022 - 2023</td>
-            </tr>
-            <tr>
-                <td>OSIS SMA Negeri 8 Bekasi</td>
-                <td>Anggota</td>
-                <td>2022 - 2023</td>
-            </tr>
-        </table>
-    </section>
-
-    <section id="kontak">
-        <h2>Formulir Kontak</h2>
-        <form>
-            <label>Nama:</label>
-            <input type="text" name="nama" required>
-            <label>Email:</label>
-            <input type="email" name="email" required>
-            <label>Pesan:</label>
-            <textarea name="pesan" rows="4" required></textarea>
-            <button type="submit">Kirim</button>
-        </form>
-    </section>
-
-    <div class="sosmed">
-        <h2>Media Sosial</h2>
-        <a href="https://facebook.com/iprdy" target="_blank">Facebook</a> |
-        <a href="https://instagram.com/iprdy" target="_blank">Instagram</a> |
-        <a href="https://www.linkedin.com/in/iprdy/" target="_blank">LinkedIn</a>
+    <div class="container">
+        <header>
+            <h1>Profil Mahasiswa</h1>
+        </header>
+    
+        <nav class="sidebar">
+            <a href="#pendidikan">Riwayat Pendidikan</a>
+            <a href="#hobi">Hobi</a>
+            <a href="#organisasi">Pengalaman Organisasi</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    
+        <main class="content">
+            <section>
+                <h2>Biodata</h2>
+                <img src="pic.jpg" alt="Foto Profil" width="120">
+                <p><strong>Nama:</strong> I Putu Raditya Dharma Yoga</p>
+                <p><strong>NIM:</strong> 2405551026</p>
+                <p><strong>Program Studi:</strong> Teknologi Informasi</p>
+                <p><strong>Alamat:</strong> Jimbaran, Bali</p>
+                <p><strong>Email:</strong> iputuradityadharmayoga@gmail.com</p>
+            </section>
+        
+            <section id="aboutme">
+                <h2>Tentang Saya</h2>
+                <p>
+                    Saya adalah mahasiswa Teknologi Informasi dengan minat besar dalam pengembangan perangkat lunak, khususnya di bidang game development. 
+                    Saya tertarik mengeksplorasi bagaimana teknologi dapat digunakan untuk menciptakan pengalaman interaktif yang imersif dan menyenangkan.
+                    Saat ini, saya sedang fokus mempelajari berbagai hal yang berkaitan dengan pengembangan game, termasuk:
+                </p>
+                <ul>
+                    <li>Unity Engine sebagai platform utama untuk membuat game lintas platform.</li>
+                    <li>C# untuk pengembangan logika dan sistem gameplay.</li>
+                    <li>Lua sebagai bahasa scripting yang banyak digunakan dalam modding dan integrasi sistem game.</li>
+                </ul>
+                <p>
+                    Saya senang belajar teknologi baru dan terus mengasah keterampilan saya di dunia game programming, desain sistem interaktif, dan pengembangan aset digital. 
+                    Tujuan saya adalah menjadi seorang game developer yang mampu menggabungkan kreativitas, logika, dan teknologi untuk menciptakan pengalaman bermain yang bermakna dan inovatif.
+                </p>
+            </section>
+            <section id="pendidikan">
+                <h2>Riwayat Pendidikan</h2>
+                <ul>
+                    <li>SD Negeri Jakasetia 4 Kota Bekasi</li>
+                    <li>SMP Negeri 12 Kota Bekasi</li>
+                    <li>SMA Negeri 8 Kota Bekasi</li>
+                </ul>
+            </section>
+        
+            <section id="hobi">
+                <h2>Hobi</h2>
+                <ol>
+                    <li>Bermain Bulutangkis</li>
+                    <li>Bermain Game</li>
+                    <li>Membaca Komik</li>
+                </ol>
+            </section>
+        
+            <section id="organisasi">
+                <h2>Pengalaman Organisasi</h2>
+                <table>
+                    <tr>
+                        <th>Organisasi</th>
+                        <th>Jabatan</th>
+                        <th>Tahun</th>
+                    </tr>
+                    <tr>
+                        <td>Ekstrakurikuler Bulutangkis</td>
+                        <td>Ketua</td>
+                        <td>2022 - 2023</td>
+                    </tr>
+                    <tr>
+                        <td>OSIS SMA Negeri 8 Bekasi</td>
+                        <td>Anggota</td>
+                        <td>2022 - 2023</td>
+                    </tr>
+                </table>
+            </section>
+        
+            <section id="kontak">
+                <h2>Formulir Kontak</h2>
+                <form>
+                    <label>Nama:</label>
+                    <input type="text" name="nama" required>
+                    <label>Email:</label>
+                    <input type="email" name="email" required>
+                    <label>Pesan:</label>
+                    <textarea name="pesan" rows="4" required></textarea>
+                    <button type="submit">Kirim</button>
+                </form>
+            </section>
+        
+            <div class="sosmed">
+                <h2>Media Sosial</h2>
+                <a href="https://facebook.com/iprdy" target="_blank">Facebook</a> |
+                <a href="https://instagram.com/iprdy" target="_blank">Instagram</a> |
+                <a href="https://www.linkedin.com/in/iprdy/" target="_blank">LinkedIn</a>
+            </div>
+        </main>
+    
+        <footer>
+            <p>&copy; 2024 I Putu Raditya Dharma Yoga</p>
+        </footer>
     </div>
-
-    <footer>
-        <p>&copy; 2024 I Putu Raditya Dharma Yoga</p>
-    </footer>
 </body>
 </html>
